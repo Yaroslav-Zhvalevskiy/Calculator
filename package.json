@@ -1,0 +1,24 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "jasmine": "^3.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node spec/runner"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yaroslav-Zhvalevskiy/Calculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yaroslav-Zhvalevskiy/Calculator/issues"
+  },
+  "homepage": "https://github.com/Yaroslav-Zhvalevskiy/Calculator#readme"
+}
