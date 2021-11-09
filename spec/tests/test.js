@@ -213,10 +213,4 @@ describe('Test Calculator class', function () {
         }
         expect(isErr).toBe(true);
     });
-
-    it('Test getResult function with usual parameters', function () {
-        calc.add(10, 5);
-        const res = calc.getResult();
-        expect(res).toBe(15);
-    });
 });
