@@ -9,26 +9,26 @@ class Calculator {
 
     add = (a, b) => {
         this.checks(a, b);
-        this.result = a + b;
-        console.log(`The sum of ${a} and ${b} is equal to ${this.result}`);
+        console.log(`The sum of ${a} and ${b} is equal to ${a + b}`);
+        return a + b;
     }
 
     subtract = (a, b) => {
         this.checks(a, b);
-        this.result = a - b;
-        console.log(`The difference between ${a} and ${b} is equal to ${this.result}`);
+        console.log(`The difference between ${a} and ${b} is equal to ${a - b}`);
+        return a - b;
     }
 
     multiply = (a, b) => {
         this.checks(a, b);
-        this.result = a * b;
-        console.log(`The product of ${a} and ${b} is equal to ${this.result}`);
+        console.log(`The product of ${a} and ${b} is equal to ${a * b}`);
+        return a * b;
     }
 
     divide = (a, b) => {
         this.checks(a, b);
-        this.result = a / b;
-        console.log(`The quotient of ${a} and ${b} is equal to ${this.result}`);
+        console.log(`The quotient of ${a} and ${b} is equal to ${a / b}`);
+        return a / b;
     }
 }
 

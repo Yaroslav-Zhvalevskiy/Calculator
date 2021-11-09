@@ -8,8 +8,7 @@ describe('Test Calculator class', function () {
     })
 
     it('Test sum function with the usual parameters', function () {
-        calc.add(10, 5);
-        expect(calc.result).toBe(15);
+        expect(calc.add(10, 5)).toBe(15);
     });
 
     it('Test sum function with string parameters', function () {
@@ -57,8 +56,7 @@ describe('Test Calculator class', function () {
     });
 
     it('Test subtract function with usual parameters', function () {
-        calc.subtract(10, 5);
-        expect(calc.result).toBe(5);
+        expect(calc.subtract(10, 5)).toBe(5);
     });
 
     it('Test subtract function with string parameters', function () {
@@ -106,8 +104,7 @@ describe('Test Calculator class', function () {
     });
 
     it('Test multiply function with usual parameters', function () {
-        calc.multiply(10, 5);
-        expect(calc.result).toBe(50);
+        expect(calc.multiply(10, 5)).toBe(50);
     });
 
     it('Test multiply function with string parameters', function () {
@@ -155,8 +152,7 @@ describe('Test Calculator class', function () {
     });
 
     it('Test divide function with usual parameters', function () {
-        calc.divide(10, 5);
-        expect(calc.result).toBe(2);
+        expect(calc.divide(10, 5)).toBe(2);
     });
 
     it('Test divide function with string parameters', function () {
